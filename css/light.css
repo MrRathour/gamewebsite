@@ -1,0 +1,1231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head {
+    height: 30px;
+    z-index: 999;
+    opacity: 0.9;
+}
+
+.banner .banner-content {
+    top: 29%;
+    left: 6%;
+}
+
+.banner .banner-content .banner-button #demos2 {
+    font-size: 30px;
+    padding: 18px 23px;
+}
+
+.right-icon .icon .contact .contact-list {
+    display: flex;
+}
+
+.right-icon .icon .contact .contact-list li {
+    list-style: none;
+}
+
+.right-icon .icon .contact .contact-list li a {
+    text-decoration: none;
+}
+
+.right-icon .icon .contact .contact-list .form {
+    position: absolute;
+    top: 100%;
+    background-color: #080325b3;
+    right: 10%;
+    /* height: 300px; */
+    width: 250px;
+    /* padding: 40px; */
+    color: #fff;
+    display: none;
+    transition: all 3s ease;
+}
+
+.right-icon .icon .contact .contact-list .form.active {
+    display: block;
+}
+
+
+
+/* .right-icon .icon .contact .contact-list .form form>.info{
+   
+} */
+.right-icon .icon .contact .contact-list .form form>.info .username {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 6px;
+}
+
+.info>.username .name {
+    padding: 6px;
+    background-color: #c5c2d43d;
+    border: none;
+}
+
+.info .check {
+    margin: 20px;
+}
+
+.info .check #che {
+    padding-right: 12px;
+}
+
+.info .btn {
+    margin: 23px;
+}
+
+.info .btn a {
+    border: 2px solid;
+    padding: 3px 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info p {
+    margin: 23px;
+}
+
+.info .btn a:hover {
+    background-color: crimson;
+}
+
+.info .lost {
+    display: none;
+    margin: 23px;
+}
+
+#show-change {
+    cursor: pointer;
+}
+
+.info .lost .email #em {
+    padding: 6px;
+    width: 100%;
+    margin-top: 12px;
+    background-color: #c5c2d43d;
+    border: none;
+}
+
+.info .lost .new a {
+    color: #fff;
+}
+
+.info .cancel p {
+    cursor: pointer;
+}
+
+/* ------- */
+.demo-light {
+    width: 100%;
+    height: 100%;
+    background-color: #080325;
+}
+
+.light {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: auto;
+    display: flex;
+
+}
+
+.light::-webkit-scrollbar {
+    width: 0px;
+}
+
+.light .light-theme {
+    background: rgb(8 3.5 37 / 80%) url('../images/owl.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+
+}
+
+.light .light-theme1 {
+    background: rgb(8 3.5 37 / 80%)url('../images/owl2.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+
+}
+
+.light .light-theme2 {
+    background: rgb(8 3.5 37 / 80%)url('../images/owl3.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+
+}
+
+.light .light-theme3 {
+    background: rgb(8 3.5 37 / 80%)url('../images/owl4.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+
+}
+
+.light .light-theme4 {
+    background: rgb(8 3.5 37 / 80%)url('../images/owl5.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+
+}
+
+/* .light .light-theme5 {
+    background: rgb(8 3.5 37 / 80%)url('../images/owl3.jpg');
+   background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+  background-blend-mode: darken;
+
+} */
+.light .theme {
+    position: relative;
+    transition: all .5s ease;
+}
+
+.light .theme h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* width: 100%; */
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+}
+
+.light .theme:hover {
+    background-color: rgb(8 3.5 37 / 60%);
+    transform: scale(1.1);
+}
+
+.owl-carousel .owl-item img {
+    width: 40%;
+}
+
+.demo-light .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.demo-light .game h4 {
+    font-size: 70px;
+    margin: 34px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.demo-light .game a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid;
+    padding: 23px;
+    font-size: 20px;
+    text-align: center;
+    margin: 34px;
+    transition: all .5s ease-in;
+}
+
+.demo-light .game a:hover {
+    background-color: crimson;
+}
+
+/* <----------star--------------> */
+.star-games {
+    display: flex;
+    margin-top: 34px;
+}
+
+.star-games .star-theme {
+    background: rgb(8 3.5 37 / 60%)url('../images/star2.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+}
+
+.star-games .star-theme1 {
+    background: rgb(8 3.5 37 / 60%)url('../images/star3.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+}
+
+.star-games .star-theme2 {
+    background: rgb(8 3.5 37 / 60%)url('../images/star4.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+}
+
+.star-games .star-theme3 {
+    background: rgb(8 3.5 37 / 60%)url('../images/star5.jpg');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+}
+
+.star-games .star-theme4 {
+    background: rgb(8 3.5 37 / 60%)url('../images/star6\,jpg.webp');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+
+}
+
+.star-games .star {
+    transition: all .5s ease;
+    position: relative;
+
+}
+
+.star-games .star:hover {
+    background-color: rgb(8 3.5 37 / 40%);
+    transform: scale(1.1);
+}
+
+.star-games .star p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount h4 {
+    font-size: 70px;
+    margin: 34px;
+    color: #fff;
+
+}
+
+.discount a {
+    border: 1px solid;
+    padding: 23px;
+    margin: 34px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .5s ease-in;
+}
+
+.discount a:hover {
+    background-color: crimson;
+}
+
+/* rating */
+
+.demo-rating {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
+.demo-rating .rating {
+    background-repeat: no-repeat;
+    width: 268px;
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+    background-blend-mode: darken;
+    transition: all .5s ease-in-out;
+}
+
+.demo-rating .rating-theme {
+    background: rgb(8 3.5 37 / 70%)url('../images/rating1.jpg');
+}
+
+.demo-rating .rating-theme1 {
+    background: rgb(8 3.5 37 / 70%)url('../images/rating2.jpg');
+}
+
+.demo-rating .rating-theme2 {
+    background: rgb(8 3.5 37 / 70%)url('../images/rating3.jpg');
+}
+
+.demo-rating .rating-theme3 {
+    background: rgb(8 3.5 37 / 70%)url('../images/rating4.jpg');
+}
+
+.demo-rating .rating-theme4 {
+    background: rgb(8 3.5 37 / 70%)url('../images/rating5.jpg');
+}
+
+.demo-rating .rating:hover {
+    background-color: rgb(8 3.5 37 / 60%);
+    transform: scale(1.1);
+}
+
+
+.demo-rating .flex-rating h4 {
+    font-size: 24px;
+    text-align: center;
+    padding: 12px;
+}
+
+.demo-rating .flex-rating p {
+    text-align: center;
+}
+
+.demo-rating .flex-rating span {
+    margin: 20px;
+}
+
+/* demo last  */
+
+.demo-last {
+    background: rgb(8 3.5 37 / 80%) url('../images/save1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    background-attachment: fixed;
+    position: relative;
+    color: #fff;
+}
+
+.demo-last .timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.demo-last .timer h2 {
+    font-size: 60px;
+    width: 100%;
+}
+
+.demo-last .timer .date-time .back-color {
+    background-color: #080325ab;
+    padding: 40px;
+}
+
+.demo-last .timer .date-time {
+    display: flex;
+    margin: 33px;
+}
+
+.demo-last .timer .date-time span {
+    /* margin-left: 40px; */
+    font-size: 50px;
+    width: 100%;
+}
+
+.demo-last .timer .date-time .time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-left: 32px;
+}
+
+.demo-last .timer .date-time .time p {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.demo-last .timer .date-time .session {
+    margin-top: 34px;
+
+}
+
+/* news css */
+
+.news-section {
+    background-color: #080325;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 40px;
+    gap: 34px;
+}
+
+.news-section .news-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.news-section .news-img .new-img1 {
+    background: rgb(8 3.5 37 / 40%) url('../images/7250840.jpg');
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    z-index: 999;
+    width: 100%;
+}
+
+.news-section .news-img .new-img2 {
+    background: rgb(8 3.5 37 / 40%) url('../images/7551432.jpg');
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    z-index: 999;
+    width: 100%;
+    position: relative;
+}
+
+.news-section .news-img .new-img3 {
+    background: rgb(8 3.5 37 / 40%) url('../images/banner-bg.jpg');
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    z-index: 999;
+    width: 100%;
+    position: relative;
+}
+
+.news-section .news-img .new-img3 span {
+    left: 4%;
+    position: absolute;
+    top: 85%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 12px
+}
+
+.news-section .news-img .new-img2 span {
+    left: 4%;
+    position: absolute;
+    top: 85%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 12px
+}
+
+
+
+
+
+
+
+
+.news-section .news-img .new-img1 span {
+    font-size: 12px;
+    border: 2px solid;
+    padding: 12px;
+    position: absolute;
+    border-radius: 50%;
+    top: 30%;
+    left: 4%;
+}
+
+.news-section .news-img .news-content h3 {
+    font-size: 50px;
+    padding: 12px;
+    transition: all .5s ease-in-out;
+}
+
+.news-section .news-img .news-content h3:hover {
+    color: crimson;
+}
+
+.news-section .news-img .news-content .news-para1 {
+    padding-bottom: 12px;
+    font-size: 15px;
+    /* width: 50%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news-section .news-img .news-content .news-para1 .spanone:hover {
+    color: crimson;
+}
+
+.news-section .news-img .news-content .news-para1 .spantwo:hover {
+    color: crimson;
+}
+
+.news-section .news-img .news-content .news-para1 .spanthree:hover {
+    color: crimson;
+}
+
+.news-section .news-img .news-content .news-para1 .spanfour:hover {
+    color: crimson;
+}
+
+.news-section .news-img .news-content .news-para2 {
+    padding: 12px 0px;
+    font-size: 20px;
+    /* width: 70%; */
+    margin-bottom: 18px;
+}
+
+.news-section .news-img .news-content a {
+    text-decoration: none;
+    border: 2px solid wheat;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 12px;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.news-section .news-img .news-content a:hover {
+    background-color: crimson;
+}
+
+/* buy */
+.buy-section .buy-img {
+    background: rgb(8 3.5 37 / 80%) url('../images/buy1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 60vh;
+    width: 100%;
+    display: table;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.buy-section .buy-img h3 {
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    margin: 34px 0px;
+}
+
+.buy-section .buy-img .ham-logo {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.buy-section .buy-img .ham-logo {}
+
+.buy-section .buy-img .ham-logo .buy1 img {
+    width: 200px;
+}
+
+.buy-us {
+    height: 100%;
+    width: 100%;
+}
+
+.buy-us .back-color {
+    background-color: #080325;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.buy-us .back-color .buy-cont1 {
+    background-color: #4d4c5257;
+    width: 20%;
+    height: 150px;
+    padding: 3px;
+    text-align: center;
+    transition: all .5s ease-in;
+}
+
+.buy-us .back-color .buy-cont1 i {
+    font-size: 45px;
+    color: #fff;
+    padding: 12px;
+}
+
+.buy-us .back-color .buy-cont1:hover {
+    transform: scale(1.2);
+
+}
+
+.buy-us .back-color .buy-cont1 h4 {
+    font-size: 25px;
+}
+
+
+@media (min-width:320px) and (max-width:400px) {
+    .light {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar .start .navlink{
+        top: 100%;
+    }
+    .navbar .start {
+     height: 10vh;
+    }
+    .demo-last{
+        height: 70vh;
+    }
+
+    .demo-rating {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .buy-section .buy-img .ham-logo {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .light .theme h2 {
+        font-size: 27px;
+    }
+
+    .footer .contact-icon h3 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .banner{
+    height: 80vh;
+    }
+    .footer .contact-icon i {
+        padding: 15px;
+        font-size: 24px;
+    }
+
+    .buy-section .buy-img .ham-logo .buy1 img {
+        width: 105px;
+        justify-content: center;
+    }
+
+    .buy-us .back-color .buy-cont1 i {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .buy-us .back-color {
+        gap: 12px;
+        height: 40vh;
+    }
+
+    .buy-us .back-color .buy-cont1 h4 {
+        font-size: 15px;
+    }
+    .buy-us .back-color .buy-cont1 p{
+        font-size: 16px;
+    }
+
+    .buy-section .buy-img h3 {
+        font-size: 67px;
+        margin: 12px 0px;
+    }
+
+    .news-section .news-img .news-content .news-para2 {
+        font-size: 20px;
+        text-align: justify;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+
+    .star-games {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin: 12px;
+    }
+
+    .demo-last .timer .date-time {
+        flex-wrap: wrap;
+    }
+
+    .demo-light .game {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .discount {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .demo-last .timer .date-time .back-color {
+        padding: 10px;
+        font-size: 19px;
+        text-align: center;
+        width: 70px;
+    }
+
+    .demo-last .timer h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .news-section .news-img .news-content h3 {
+        font-size: 26px;
+        padding: 12px 0px;
+    }
+
+    .news-section .news-img {
+        flex-wrap: wrap;
+    }
+
+    .news-section .news-img .new-img1 span {
+        top: 13%;
+        left: 13%;
+    }
+
+    .banner .banner-content .banner-button #demos2 {
+        font-size: 20px;
+        padding: 12px 12px;
+    }
+
+    .demo-light .game a {
+        padding: 12px;
+        margin-top: 0px;
+    }
+
+    .discount a {
+        padding: 12px;
+        margin-top: 2px;
+    }
+
+    .discount h4 {
+        font-size: 65px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:400px) and (max-width:500px) {
+    .light {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar .start{
+        height: 14vh;
+    }
+ 
+    .banner .banner-content{
+        top: 20%;
+    }
+    .demo-last{
+        height: 62vh;
+    }
+    .demo-rating {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .banner{
+        height:75vh;
+        background-position: center;
+    }
+
+    .buy-section .buy-img .ham-logo {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .light .theme h2 {
+        font-size: 27px;
+    }
+
+    .footer .contact-icon h3 {
+        font-size: 21px;
+    }
+
+    .footer .contact-icon i {
+        padding: 15px;
+        font-size: 24px;
+    }
+
+    .buy-section .buy-img .ham-logo .buy1 img {
+        width: 122px;
+    }
+
+    .buy-us .back-color .buy-cont1 i {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .buy-us .back-color {
+        gap: 12px;
+        height: 40vh;
+    }
+
+    .buy-us .back-color .buy-cont1 h4 {
+        font-size: 15px;
+    }
+
+    .buy-section .buy-img h3 {
+        font-size: 67px;
+        margin: 12px 0px;
+    }
+
+    .news-section .news-img .news-content .news-para2 {
+        font-size: 12px;
+    }
+
+    .star-games {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin: 12px;
+    }
+    .footer{
+        height: 60vh;
+    }
+
+    .demo-last .timer .date-time {
+        flex-wrap: wrap;
+    }
+
+    .demo-light .game {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .discount {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .demo-last .timer .date-time .back-color {
+        padding: 20px;
+        font-size: 25px;
+        text-align: center;
+        width: 100px;
+    }
+
+    .demo-last .timer h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .news-section .news-img .news-content h3 {
+        font-size: 40px;
+    }
+
+    .news-section .news-img {
+        flex-wrap: wrap;
+    }
+
+    .news-section .news-img .new-img1 span {
+        top: 16.5%;
+        left: 11%;
+    }
+
+    .banner .banner-content .banner-button #demos2 {
+        font-size: 20px;
+        padding: 12px 12px;
+    }
+
+    .demo-light .game a {
+        padding: 12px;
+        margin-top: 0px;
+    }
+
+    .discount a {
+        padding: 12px;
+        margin-top: 2px;
+    }
+
+    .discount h4 {
+        font-size: 65px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:500px) and (max-width:800px) {
+    .light {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .demo-rating {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .buy-section .buy-img .ham-logo {
+        flex-wrap: wrap;
+    }
+
+    .light .theme h2 {
+        font-size: 27px;
+    }
+
+    .footer .contact-icon h3 {
+        font-size: 21px;
+    }
+
+    .footer .contact-icon i {
+        padding: 15px;
+        font-size: 24px;
+    }
+
+    .buy-section .buy-img .ham-logo .buy1 img {
+        width: 170px;
+    }
+
+    .buy-us .back-color .buy-cont1 i {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .buy-us .back-color {
+        gap: 27px;
+    }
+
+    .buy-us .back-color .buy-cont1 h4 {
+        font-size: 22px;
+    }
+
+    .buy-section .buy-img h3 {
+        font-size: 67px;
+        margin: 12px 0px;
+    }
+
+    .news-section .news-img .news-content .news-para2 {
+        font-size: 12px;
+    }
+
+    .star-games {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin: 12px;
+    }
+
+    .news-section .news-img .new-img1 {
+        height: 260px;
+        background-position: center;
+    }
+
+    .news-section .news-img .news-content h3 {
+        font-size: 28px;
+    }
+
+    .news-section .news-img .new-img3 {
+        height: 260px;
+    }
+
+    .news-section .news-img .new-img2 {
+        height: 260px;
+    }
+
+    .news-section .news-img .new-img1 span {
+        font-size: 12px;
+        border: 1px solid;
+        padding: 12px;
+        top: 29%;
+        left: 6%;
+    }
+
+    .news-section .news-img .new-img2 span {
+        left: 2%;
+        position: absolute;
+        top: 80%;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 12px;
+    }
+
+    .news-section .news-img .new-img3 span {
+        left: 4%;
+        position: absolute;
+        top: 80%;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 12px;
+    }
+
+    .news-section .news-img .news-content a {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:800px) and (max-width:900px) {
+    .light {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar .start{
+        height: 9vh;
+    }
+    .demo-rating {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .buy-section .buy-img .ham-logo {
+        flex-wrap: wrap;
+    }
+
+    .light .theme h2 {
+        font-size: 27px;
+    }
+
+    .footer .contact-icon h3 {
+        font-size: 21px;
+    }
+    
+    .footer .contact-icon i {
+        padding: 15px;
+        font-size: 24px;
+        
+    }
+
+    .buy-section .buy-img .ham-logo .buy1 img {
+        width: 178px;
+    }
+
+    .buy-us .back-color .buy-cont1 i {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .buy-us .back-color {
+        gap: 27px;
+        height: 40vh;
+    }
+
+    .buy-us .back-color .buy-cont1 h4 {
+        font-size: 22px;
+    }
+
+    .buy-section .buy-img h3 {
+        font-size: 67px;
+        margin: 12px 0px;
+    }
+
+    .news-section .news-img .news-content .news-para2 {
+        font-size: 12px;
+    }
+
+    .star-games {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin: 12px;
+    }
+    .footer .contact-icon{
+        top: 30%;
+    }
+    .demo-last{
+        height: 58vh;
+    }
+}
+
+
+@media (min-width:900px) and (max-width:1400px) {
+
+    .buy-section .buy-img .ham-logo {
+        flex-wrap: wrap;
+    }
+    .demo-rating{
+        flex-wrap: wrap;
+    }
+    .buy-section .buy-img h3{
+        margin: 2px 0px;
+    }
+    .buy-section .buy-img .ham-logo .buy1 img{
+        width: 180px;
+    }
+}

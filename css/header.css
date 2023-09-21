@@ -1,0 +1,500 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url("OpenSans-Italic-VariableFont_wdth,wght.ttf");
+    font-family: abc;
+}
+
+@font-face {
+    src: url("CrimsonText-Bold");
+    font-family: xyz;
+}
+
+@font-face {
+    src: url("Lato-BoldItalic");
+    font-family: lato;
+}
+
+.navbar .start .logo-img img {
+    width: 170px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+.navbar .start {
+    display: flex;
+    align-items: center;
+    background-color: rgb(8 3.5 37 / 50%);
+    padding: 14px;
+    gap: 30px;
+    z-index: 999;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+ .bar{
+    display: none;
+ }
+
+.navbar .start .navlink {
+    display: flex;
+    align-items: center;
+    gap: 450px;
+}
+
+
+.navbar .start .navlink .links {
+    display: flex;
+}
+
+.navbar .start .navlink .links li {
+    list-style: none;
+}
+
+.navbar .start .navlink .links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    vertical-align: middle;
+    padding: 8px 23px;
+    transition: all .5s ease-in-out;
+}
+
+.navbar .start .navlink .links li a i {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.navbar .start .navlink .links li a:hover {
+    color: grey;
+}
+
+/* menu-bar */
+
+
+.navlink .links li .themepage {
+    position: absolute;
+    top: 70px;
+    background-color: black;
+    padding: 23px 12px;
+    text-transform: uppercase;
+    font-family: abc;
+    letter-spacing: 2px;
+    display: none;
+    transition: all 5s ease-in;
+}
+
+.navlink .links li:hover .themepage {
+    display: block;
+}
+
+
+
+.navlink .linksk li .themepage ul li {
+    padding: 0px;
+}
+
+.navlink .links li .themepage ul li a {
+    transition: all 5s ease-in;
+}
+
+.navlink .links li .themepage ul li a:hover {
+    text-decoration: underline;
+}
+
+/* product menu */
+.product {
+    position: absolute;
+    top: 80px;
+    background-color: black;
+    padding: 13px 33px;
+    color: #fff;
+    font-size: 21px;
+    font-family: abc;
+    display: none;
+    gap: 40px;
+    transition: all .2s ease-in;
+}
+
+.product:before {
+    content: "  ";
+    position: absolute;
+    top: -22px;
+    left: 8px;
+    height: 12px;
+    width: 12px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.767);
+}
+
+
+
+.links li:hover .product {
+    display: flex;
+}
+
+
+/* blog-menu */
+.blog {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    background-color: black;
+    padding: 13px 33px;
+    display: none;
+}
+
+.links li:hover .blog {
+    display: flex;
+}
+
+
+
+/*contact form */
+
+.contact .nav-contact {
+    display: flex;
+    gap: 15px;
+}
+
+.contact .nav-contact li {
+    list-style: none;
+}
+
+.contact .nav-contact li a {
+    color: #fff;
+    padding: 20px 12px;
+    display: flex;
+    text-decoration: none;
+}
+
+
+
+
+
+.contact-form {
+    position: absolute;
+    top: 90px;
+    background-color: rgb(61, 58, 58);
+    padding: 18px;
+    color: #fff;
+    right: 13%;
+    padding: 14px 30px;
+    display: none;
+    transition: all 5s ease;
+}
+
+.contact ul li:hover .contact-form {
+    display: block;
+}
+
+.contact-form::before {
+    content: "  ";
+    position: absolute;
+    top: -22px;
+    right: 8px;
+    height: 12px;
+    width: 12px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.767);
+}
+
+.contact-form form .input1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form .input1 label {
+    font-size: 20px;
+    padding: 12px 0px;
+}
+
+.contact-form form .input1 input {
+    padding: 10px;
+    outline: none;
+}
+
+.contact-form form .input2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form .input2 label {
+    font-size: 20px;
+    padding: 12px 0px;
+}
+
+.contact-form form .input2 input {
+    outline: none;
+    padding: 10px;
+}
+
+.contact-form form .reme label {
+    font-size: 20px;
+}
+
+.contact-form form .reme input {
+    padding: 10px;
+    margin-bottom: 34px;
+    outline: none;
+}
+
+#login {
+    border: .3px solid #fff;
+    padding: 5px 18px;
+    font-size: 17px;
+    transition: all .5s ease;
+    margin-bottom: 23px;
+}
+
+#get-pass {
+    border: .3px solid #fff;
+    padding: 5px 18px;
+    font-size: 17px;
+    transition: all .5s ease;
+}
+
+#lost {
+    margin-top: 34px;
+    cursor: pointer;
+}
+
+#cancel {
+    cursor: pointer;
+}
+
+.contact-form a:hover {
+    background-color: crimson;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: justify;
+}
+
+.contact-form .lost-password {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 23px;
+}
+
+#main {
+    display: none;
+}
+
+.lostinput {
+    display: flex;
+    flex-direction: column;
+}
+
+.lostinput label {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.lostinput input {
+    padding: 10px;
+}
+
+.lostinput input::placeholder {
+    font-size: 14px;
+}
+.bar i{
+    color: #fff;
+    padding-right: 23px;
+}
+
+/* media query */
+@media (min-width:320px) and (max-width:700px) {
+    .navbar .start .navlink {
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(147, 143, 143);
+        color: #222;
+        top: 81px;
+        gap: 12px;
+        right: 0;
+        width: 200px;
+        align-items: inherit;
+        display: none;
+    }
+
+    .themepage {
+        position: inherit;
+        flex-direction: column;
+        z-index: 999;
+        gap: 7px;
+        font-size: 12px;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    .product {
+        position: inherit;
+        flex-direction: column;
+        z-index: 999;
+        gap: 7px;
+        font-size: 12px;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog {
+        position: inherit;
+        flex-direction: column;
+        z-index: 999;
+        gap: 7px;
+        font-size: 12px;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        top: 50px;
+    }
+
+
+
+
+
+    .links {
+        flex-direction: column;
+    }
+
+    .navbar .start .navlink .links li p {
+        color: #fff;
+        font-size: 10px;
+        padding-left: 23px;
+    }
+
+    .contact .nav-contact {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .start {
+        justify-content: space-between;
+    }
+ 
+    .bar{
+        display: block;
+    }
+    .bar i {
+        color: #fff;
+    }
+    .contact .nav-contact li a{
+        padding: 3px 12px;
+    }
+    .contact-form{
+        position: inherit;
+    
+    }
+
+    .contact-form form .input1 label{
+        font-size: 14px;
+    }
+    .contact-form form .input2 label{
+        font-size: 14px;
+    }
+    .contact-form form .reme label{
+        font-size: 14px;
+    }
+    .contact-form form .input1 input{
+        padding: 2px;
+    }
+    .contact-form form .input2 input{
+        padding: 2px;
+    }
+    #login {
+        border: 0.3px solid #fff;
+        padding: 2px 11px;
+        font-size: 12px;
+        transition: all .5s ease;
+        margin-bottom: 23px;
+    }
+    #get-pass{
+        font-size: 10px;
+    }
+    .lostinput label{
+ font-size: 14px;
+    }
+    .lostinput input {
+        padding: 2px;
+    }
+
+}
+@media (min-width:700px) and (max-width:800px){
+    .navbar .start .navlink{
+        gap: 40px;
+    }
+    .navbar .start .navlink .links li a{
+        font-size: 12px;
+    }
+    .contact .nav-contact li a{
+        font-size: 12px;
+        padding: 14px 8px;
+    }
+
+}
+@media (min-width:800px) and (max-width:950px){
+    .navbar .start .navlink{
+        gap: 40px;
+    }
+    .navbar .start .navlink .links li a{
+        font-size: 15px;
+    }
+    .contact .nav-contact li a{
+        font-size: 15px;
+    }
+}
+@media (min-width:950px) and (max-width:1100px){
+    .navbar .start .navlink{
+        gap: 160px;
+    }
+    .navbar .start .navlink .links li a{
+        font-size: 17px;
+    }
+    .contact .nav-contact li a{
+        font-size: 17px;
+    }
+}
+@media (min-width:1100px) and (max-width:1230px){
+    .navbar .start .navlink{
+        gap: 270px;
+    }
+    .navbar .start .navlink .links li a{
+        font-size: 19px;
+    }
+    .contact .nav-contact li a{
+        font-size: 19px;
+    }
+}
+@media (min-width:1230px) and (max-width:1320px){
+    .navbar .start .navlink{
+        gap: 350px;
+    }
+    .navbar .start .navlink .links li a{
+        font-size: 19px;
+    }
+    .contact .nav-contact li a{
+        font-size: 19px;
+    }
+}
